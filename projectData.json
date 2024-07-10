@@ -1,0 +1,104 @@
+{
+"ownProject": [
+  {
+    "projectName": "Guess The Number",
+    "projectDescription": "This is a Game to Guess The Random Number",
+    "folderName": "GuessTheNumber",
+    "previewLink": "/GuessTheNumber/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "word Typer",
+    "projectDescription": "This is a Typer app to write and delete words atomatically with loop.",
+    "folderName": "Typer",
+    "previewLink": "/Typer/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Search By Anthing",
+    "projectDescription":
+      "This is a search engine where we can search anything with any provider (e.g: google, bing)",
+    "folderName": "Search_Engine",
+    "previewLink": "/Search_Engine/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Github User Data Fetch",
+    "projectDescription":
+      "This is small project to fetch Users Data from github using fetch()",
+    "folderName": "API_project",
+    "previewLink": "/API_project/fetch.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Age Calculator",
+    "projectDescription":
+      "This is small project to calculate age using javscript Date Object with validation like(day must under last day of month, year must in past, month must under 12)",
+    "folderName": "age-calculator",
+    "previewLink": "/age-calculator/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Filter Joblist",
+    "projectDescription":
+      "This is a job list website that showcase have listed job, and We can also filter the job by role, level or language | data is printing dynamically from data.json",
+    "folderName": "filter_data",
+    "previewLink": "/filter_data/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Music Player",
+    "projectDescription":
+      "A Music player with (multiple songs) (next) (previous) (progress bar) (Duration)",
+    "folderName": "audioPlayer",
+    "previewLink": "/audioPlayer/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Daily Goal Set",
+    "projectDescription":
+      "This is To do list There you can set 3 goal for the Day",
+    "folderName": "dailyGoalSet",
+    "previewLink": "/dailyGoalSet/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Insure Landing Page",
+    "projectDescription":
+      "This is a Insurance company Landing page Insure",
+    "folderName": "insure-landing-page",
+    "previewLink": "/insure-landing-page/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Country List",
+    "projectDescription":
+      "This is a website that show all country card with light and dark mode that store in loaclstorage, and We can also filter the countries by region, get country by search name of country, show full deatils onclick country card, switch details page on click border country | data is printing dynamically from data.json",
+    "folderName": "Country_list",
+    "previewLink": "/Country_list/index.html",
+    "codeLink": ""
+  },
+  {
+    "projectName": "Quiz_App",
+    "projectDescription":
+      "A quiz app that saves The Pogress, heighest score, mute/unmute, share result using (html2canvas & web share api)",
+    "folderName": "quiz_app",
+    "previewLink": "/quiz_app/index.html",
+    "codeLink": ""
+  }
+],
+"freelanceProject": [
+  {
+    "projectName": "Maitri Studio",
+    "imageUrl": "maitristudio.webp",
+    "projectDescription": "I built a shop website for <mark>Maitri Studio</mark>, a Common Service Center (<mark>CSC</mark>), using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The website showcases their <mark>services</mark> in an intuitive and engaging manner. I used <mark>Swiper JS</mark> to implement dynamic, touch-friendly image sliders, enhancing the user experience. Additionally, I integrated <mark>Google Apps Script</mark> to fetch and display files directly from <mark>Google Drive</mark>, ensuring the website stays up-to-date with the latest service offerings. The project highlights my ability to create responsive, interactive, and user-friendly websites from scratch, leveraging modern libraries and tools to meet client needs.",
+      "previewLink" : "https://subratamondal1029.netlify.app"
+  },
+  {
+    "projectName": "API (asian spacific institute)",
+    "imageUrl": "api.webp",
+    "projectDescription": "I worked for a client to create a comprehensive website from Scratch using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The website features <mark>nine pages</mark>, including an apply page where applicants can submit their details. These details are stored in <mark>Google Sheets</mark>, and <mark>email notifications</mark> are sent to both the owner and the applicant upon submission. I integrated <mark>Swiper JS</mark> for responsive sliders, <mark>Typed JS</mark> for dynamic text effects, and <mark>jsPDF</mark> to merge image files into a single PDF. The PDF is then uploaded to <mark>Google Drive</mark>, and its link is stored in the sheet. Additionally, I implemented a feature that allows the owner to retrieve <mark>specific applicant details from Google Sheets</mark> by entering the applicant's name, streamlining the application management process.",
+      "previewLink" : "https://subratamondal1029.github.io/api-project/"
+  }
+]
+}
