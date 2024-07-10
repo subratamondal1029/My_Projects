@@ -35,13 +35,13 @@ freelancingProjects.forEach((project) =>{
 
 ownProjects.forEach((project) =>{
    ownProjectContainer.innerHTML += `<div class="projectCard" data-aos="zoom-in">
-                <img src="site/${project.folderName}/images/site.webp" alt="${project.projectName}">
+                <img src="/${project.folderName}/images/site.webp" alt="${project.projectName}">
                 <div class="projectDetails">
                     <h3 class="projectName">${project.projectName}</h3>
                     <p class="projectDescrip">${project.projectDescription}</p>                
                 </div>
                 <div class="projectLinks">
-                    <a class="link" href="site${project.previewLink}"><i class="fa-solid fa-link"></i>Preview</a>
+                    <a class="link" href="${project.previewLink}"><i class="fa-solid fa-link"></i>Preview</a>
                     <a class="link" href="${project.codeLink}"><i class="fa-solid fa-link"></i>Code</a>
                 </div>
             </div>`
