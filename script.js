@@ -5,7 +5,7 @@ Aos.init({
    duration: 300,
 })
 
-fetch('projectData.json')
+fetch('./projectData.json')
 .then(res => res.json())
 .then(printProjects)
 
