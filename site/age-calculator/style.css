@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 86%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  width: 90%;
+  max-width: 800px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px 25px 160px 25px;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#inputFields {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+
+#inputFields .field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.field input {
+  outline: none;
+  width: 100%;
+  max-width: 160px;
+  min-height: 12vmin;
+  padding: 20px;
+  font-size: 32px;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 86%);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.field input::selection {
+  color: hsl(0, 0%, 86%);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.field label {
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 3vmin;
+}
+
+.field .error {
+  color: hsl(0, 100%, 67%);
+  font-style: italic;
+  font-size: 2vmin;
+  visibility: hidden;
+}
+
+#spliter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#spliter hr {
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 86%);
+}
+button {
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  border-radius: 10pc;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+#resultContainer {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#resultContainer .result {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  max-height: 103px;
+  font-size: 110px;
+  color: hsl(259, 100%, 65%);
+  font-style: italic;
+  font-weight: 800;
+}
+
+.resultField {
+  letter-spacing: 15px;
+}
+#resultContainer.complete .resultField {
+  letter-spacing: 0;
+}
+
+.resultType {
+  color: hsl(0, 0%, 8%);
+  letter-spacing: 1px;
+}
+
+.field.giveErr label {
+  color: hsl(0, 100%, 67%);
+}
+
+.field.giveErr input {
+  border-color: hsl(0, 100%, 67%);
+  caret-color: hsl(0, 100%, 67%);
+}
+
+.field.giveErr .error {
+  visibility: visible;
+}
+
+.field input:hover {
+  border-color: hsl(259, 100%, 65%);
+  caret-color: hsl(259, 100%, 65%);
+}
+
+@media screen and (max-width: 810px) {
+  .resultField {
+    letter-spacing: 0;
+  }
+  #resultContainer .result {
+    font-size: 12vmin;
+  }
+  #container {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #spliter {
+    position: relative;
+    margin-block: 40px;
+  }
+  button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  button img {
+    width: 20px;
+  }
+
+  .field input {
+    padding: 10px;
+    font-size: 4vmin;
+  }
+
+}
+
+/* styling for promotional */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
