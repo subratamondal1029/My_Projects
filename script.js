@@ -20,7 +20,7 @@ const ownProjects = data.ownProject.reverse()
 
 freelancingProjects.forEach((project) =>{
    freeLanceContainer.innerHTML += `<div class="projectCard" data-aos="zoom-in">
-                <img src="images/freelanceImage/${project.imageUrl}" alt="${project.projectName}">
+                <img src="/images/freelanceImage/${project.imageUrl}" alt="${project.projectName}">
                 <div class="projectDetails">
                     <h3 class="projectName">${project.projectName}</h3>
                     <p class="projectDescrip">${project.projectDescription}</p>                
