@@ -15,8 +15,8 @@ const freeLanceContainer = document.getElementById('freelancing')
 const ownProjectContainer = document.getElementById('ownProject')
 
 function printProjects(data){
-const freelancingProjects = data.freelanceProject.reverse()
-const ownProjects = data.ownProject.reverse()
+const freelancingProjects = data.freelanceProject
+const ownProjects = data.ownProject
 
 freelancingProjects.forEach((project) =>{
    freeLanceContainer.innerHTML += `<div class="projectCard" data-aos="zoom-in">
