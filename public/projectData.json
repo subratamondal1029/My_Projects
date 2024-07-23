@@ -6,55 +6,55 @@
         "previewLink": "/quiz_app/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/quiz_app",
         "folderName": "quiz_app",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify", "Html2Canvas", "web share Api", "localstorage"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "Html2Canvas", "web share Api", "localstorage"]
     },
     {
         "projectName": "Daily Goal Set",
         "projectDescription": "I created a To-Do List App using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The app utilizes <mark>local storage</mark> to save tasks and includes a <mark>progress bar</mark> to visualize task completion. It features <mark>dynamic quotes</mark> that change based on progress, providing motivation. Moreover, the app automatically <mark>deletes lists</mark> at the end of each day, ensuring a fresh start daily. These functionalities combine to create a practical, motivating, and user-friendly experience.",
-        "previewLink": "/dailygoalset/",
+        "previewLink": "/dailyGoalSet/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/dailyGoalSet",
         "folderName": "dailyGoalSet",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify", "localstorage"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "localstorage"]
     },
     {
         "projectName": "Where in The World",
         "projectDescription": "I developed a comprehensive country list website using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> leveraging the REST Countries API. The site features 250 countries with <mark>region filtering</mark> and <mark>name search</mark> options. Each country page offers <mark>detailed information</mark> and allows exploration of <mark>neighboring countries</mark> By click in Name. Users can switch between <mark>light and dark mode</mark>, with preferences saved in <mark>local storage</mark>, ensuring an interactive and personalized browsing experience.",
-        "previewLink": "/Country_list/",
+        "previewLink": "/Country_list/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/Country_list",
         "folderName": "Country_list",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify", "localstorage", "Rest Country Api"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "localstorage", "Rest Country Api"]
     },
     {
         "projectName": "Job List",
         "projectDescription": "I created a Job List App using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. This app lists jobs from various companies and enhances the job search experience with robust features. Users can filter jobs based on <mark>level</mark>, <mark>language</mark>, and <mark>position</mark> by clicking on tags, supporting multiple filter options for efficient search refinement. These features make job searching more <mark>efficient</mark> and <mark>user-friendly</mark>, ensuring users can find the most relevant job opportunities quickly.",
-        "previewLink": "/filter_data/",
+        "previewLink": "/filter_data/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/filter_data",
         "folderName": "filter_data",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
         "projectName": "Age Calculator",
         "projectDescription": "I created an Age Calculator using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. Users can calculate their age with built-in validations such as ensuring the <mark>day is within the last date of the month</mark>, the <mark>year is not in the future</mark>, and the <mark>month is between 1 and 12</mark>. These features ensure the app is practical, motivating, and <mark>user-friendly</mark>, providing an accurate age calculation experience.",
-        "previewLink": "/age-calculator/",
+        "previewLink": "/age-calculator/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/age-calculator",
         "folderName": "age-calculator",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
         "projectName": "Music Player",
         "projectDescription": "I created a Music Player App using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> with several advanced features. The app supports basic controls such as <mark>play</mark>, <mark>pause</mark>, <mark>next</mark>, and <mark>previous</mark>, accessible via both keyboard and mouse. It features an advanced <mark>progress bar</mark> that dynamically updates with the music's progress, showing both the <mark>progress time</mark> and <mark>total time</mark> of the track. Users can interactively change the current playback time by clicking on the <mark>progress bar</mark>. The app also includes indicators for <mark>current</mark> and <mark>total music numbers</mark>. Upon completing a track, it automatically transitions to the next one and <mark>loops back</mark> to the first track after playing all songs.",
-        "previewLink": "/audioplayer/",
+        "previewLink": "/audioPlayer/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/audioPlayer",
         "folderName": "audioPlayer",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
         "projectName": "Insure Landing Page",
         "projectDescription": "I created an insurance company landing page using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The page utilizes <mark>AOS (Animate On Scroll)</mark> for smooth scroll animations, dynamically revealing elements. It features <mark>responsive styling</mark> to ensure optimal appearance and functionality across all devices, enhancing user experience.",
-        "previewLink": "/insure-landing-page/",
+        "previewLink": "/insure-landing-page/index.html",
         "codeLink": "https://github.com/subratamondal1029/My_Projects/tree/main/public/insure-landing-page",
         "folderName": "insure-landing-page",
-        "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+        "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
       "projectName": "Guess The Number",
@@ -62,7 +62,7 @@
       "folderName": "GuessTheNumber",
       "previewLink": "/GuessTheNumber/index.html",
       "codeLink": "",
-      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+      "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
       "projectName": "word Typer",
@@ -70,7 +70,7 @@
       "folderName": "Typer",
       "previewLink": "/Typer/index.html",
       "codeLink": "",
-      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+      "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
       "projectName": "Search By Anthing",
@@ -79,7 +79,7 @@
       "folderName": "Search_Engine",
       "previewLink": "/Search_Engine/index.html",
       "codeLink": "",
-      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+      "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     },
     {
       "projectName": "Github User Data Fetch",
@@ -88,7 +88,7 @@
       "folderName": "API_project",
       "previewLink": "/API_project/fetch.html",
       "codeLink": "",
-      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "netlify"]
+      "tags": ["HTML", "CSS", "Javascript", "Git & Github"]
     }
   ],
   "freelanceProject": [
@@ -96,15 +96,15 @@
       "projectName": "API (Asian Spacific Institute)",
       "projectDescription": "I worked for a client to create a comprehensive website from Scratch using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The website features <mark>nine pages</mark>, including an apply page where applicants can submit their details. These details are stored in <mark>Google Sheets</mark>, and <mark>email notifications</mark> are sent to both the owner and the applicant upon submission. I integrated <mark>Swiper JS</mark> for responsive sliders, <mark>Typed JS</mark> for dynamic text effects, and <mark>jsPDF</mark> to merge image files into a single PDF. The PDF is then uploaded to <mark>Google Drive</mark>, and its link is stored in the sheet. Additionally, I implemented a feature that allows the owner to retrieve <mark>specific applicant details from Google Sheets</mark> by entering the applicant's name, streamlining the application management process.",
       "imageUrl": "api.webp",
-      "previewLink": "https://apionline.netlify.app",
+      "previewLink": null,
       "codeLink": null,
-      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "GAS(google app script)", "netlify", "Typed.Js", "Swiper.Js", "JsPdf", "pin Code Api", "fetch"]
+      "tags": ["HTML", "CSS", "Javascript", "Git & Github", "GAS(google app script)", "Typed.Js", "Swiper.Js", "JsPdf", "pin Code Api", "fetch"]
   },
   {
       "projectName": "Maitri Studio (CSC)",
       "projectDescription": "I built a shop website for <mark>Maitri Studio</mark>, a Common Service Center (<mark>CSC</mark>), using <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The website showcases their <mark>services</mark> in an intuitive and engaging manner. I used <mark>Swiper JS</mark> to implement dynamic, touch-friendly image sliders, enhancing the user experience. Additionally, I integrated <mark>Google Apps Script</mark> to fetch and display files directly from <mark>Google Drive</mark>, ensuring the website stays up-to-date with the latest service offerings. The project highlights my ability to create responsive, interactive, and user-friendly websites from scratch, leveraging modern libraries and tools to meet client needs.",
       "imageUrl": "maitristudio.webp",
-      "previewLink": "https://maitristudio.onrender.com",
+      "previewLink": null,
       "codeLink": null,
       "tags": ["HTML", "CSS", "Javascript", "Git & Github", "render", "GAS(google app script)", "Swiper.Js"]
   }
