@@ -1,3 +1,4 @@
+const container = document.getElementById('container')
 let data = getLocalData('data')
 if (!data) {
     fetch('questions.json').then((res) => res.json())
@@ -33,6 +34,7 @@ let isAnswered = false
 document.querySelector('#startMenu button').addEventListener('click', startGame)
  function startGame() {
     console.log("started...");
+    container.className = 'start'
     resetGame()
     playSound('start')
     printTemplate()
@@ -366,10 +368,8 @@ function getScoreQuote(score) {
 }
 
 let timingInterVal
-function timingCheck(){ 
-    const gameMenu = document.getElementById('gameMenu')
-    gameMenu.className = ""
-
+function timingCheck(){
+    
     let totalTime = 30
     let time = totalTime
 
@@ -382,9 +382,9 @@ function timingCheck(){
 
         const timePar = (time/totalTime) * 100
         if (timePar < 20) {
-            gameMenu.className = "fullWarn"
+            container.className = "fullWarn"
         }else if(timePar <= 50){
-            gameMenu.className = "midWarn"
+            container.className = "midWarn"
         }
 
         if (timePar <= 0) {
@@ -406,7 +406,7 @@ function shareScreenshot() {
             if (navigator.share) {
                 navigator.share({
                     title: 'Result',
-                    text: 'Check out this Result | App Link:- https://subrataprojects.netlify.app/quiz_app !',
+                    text: 'Check out this Result | App Link:- https://subrataprojects.vercel.app/quiz_app/index.html !',
                     files: [file]
                 })
                 .catch(() => alert('Error sharing Result'));
